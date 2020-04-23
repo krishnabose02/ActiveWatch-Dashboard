@@ -1,0 +1,105 @@
+$gray: #777777;
+$lgray: #cccccc;
+$llgray: #f5f5f5;
+.card {
+  border-radius: 8px;
+  border: 1px solid $lgray;
+  padding: 20px;
+  margin: 10px;
+  background: #fefefe;
+  max-width: 600px;
+}
+
+.card:hover {
+  background: #fcfcfc;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  // 0 12.5px 10px rgba(0, 0, 0, 0.06),
+  // 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  // 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  // 0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+p {
+  color: #777777;
+}
+
+.hfc {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.vfc {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-width {
+  width: 90%;
+}
+
+.large {
+  font-size: 1.6rem;
+}
+
+.hffs {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hfsb {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.circle {
+  margin: 10px;
+  border: $lgray 1px solid;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+
+  ion-icon {
+    color: $lgray;
+    font-size: 1.6rem;
+  }
+}
+
+.circle:hover {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+  // 0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+  background: $llgray;
+  ion-icon {
+    color: #5c6bc0;
+  }
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.hffe {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ion-icon {
+  font-size: 1.8rem;
+  margin: 10px;
+  color: $gray;
+}
+.lowvmargin {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.lowmargin {
+  margin: 1px;
+}
